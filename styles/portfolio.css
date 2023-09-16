@@ -2,7 +2,8 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-
+    margin: 0 100px;
+    
 
 }
 body{
@@ -42,4 +43,71 @@ font-size: 20px;
 color: #FFF;
 font-weight: 700;
 padding:15px 35px ;
+}
+.header{
+    background-color:#FFF8F3 ;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner{
+padding-left: 30px 30px 30px 150px;
+display: flex;
+padding:0 100px ;
+
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.greeting {
+    font-size: 45px; 
+   font-weight: 700;
+   color:#181818;
+   margin-bottom: 0;
+
+}
+.heading{
+    font-size: 85px;
+   font-weight: 700;
+   margin-top: 5px;
+   margin-bottom: 20px;
+
+}
+/* about */
+.abt
+{
+    border-radius: 10px;
+background: #FFF8F3; 
+width: 1140px;
+height: 550px;
+flex-shrink: 0;
+padding: 150px;
+margin-top: 130px;
+}
+.abt-title{
+    color:#181818;
+text-align: center;
+ font-size: 35px;
+ font-weight: 700;
+ 
+}
+.abt-content{
+    color: #757575;
+text-align: center;
+ 
+font-size: 18px;
+ 
+font-weight: 400;
+line-height: 30px; 
+
+}
+main{
+    margin: 0 auto;
+}
+ .abt-info-container{
+display: flex;
 }
